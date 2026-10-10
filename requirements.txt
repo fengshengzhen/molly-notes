@@ -1,0 +1,5 @@
+openai
+markdown2
+python-dotenv
+tkhtmlview
+pyinstaller

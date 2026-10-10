@@ -1,0 +1,18 @@
+{
+  "provider": "deepseek",
+  "api_keys": {
+    "deepseek": "your_deepseek_api_key_here",
+    "zhipu": "your_zhipu_api_key_here",
+    "qwen": "your_qwen_api_key_here"
+  },
+  "model_id": {
+    "deepseek": "deepseek-chat",
+    "zhipu": "glm-4-flash",
+    "qwen": "qwen-plus"
+  },
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "top_p": 1.0,
+  "stream": true,
+  "log_level": "INFO"
+}
