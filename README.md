@@ -10,18 +10,26 @@
 - 分层解耦架构，代码高内聚低耦合
 
 ## 🚀 运行步骤
-1. 克隆代码到本地：
+
+1. 克隆代码：
    `git clone https://github.com/fengshengzhen/molly-notes.git`
-2. 安装依赖：
+
+2. 安装依赖（建议使用 Python 3.11 虚拟环境）：
    `pip install -r requirements.txt`
+
 3. 配置 API Key：
-   把 `config.example.json` 复制一份并重命名为 `config.json`，把里面的占位符换成你自己的 API Key。
-4. 启动项目：
+   - 把 `config.example.json` 复制一份并重命名为 `config.json`。
+   - 填入你自己的 API Key（支持 DeepSeek、通义千问、智谱）。
+   - **注意：千万不要把 `config.json` 提交到 Git！**
+
+4. 启动程序：
    `python main.py`
 
 ## 📷 运行截图
 <img width="1920" height="1027" alt="AI魔力笔记运行截图" src="https://github.com/user-attachments/assets/f69b6215-30f8-4365-a758-1ad213171ebd" />
 
 
-## 📝 注意事项
-本项目仅供学习与展示，API Key 请自行在对应平台申请，不要将 `config.json` 上传至公开仓库。
+## 📝 个人备注
+- 开发过程中遇到的最大坑是 `config.json` 的泄露防范，所以我特地写了一个 `.gitignore` 来屏蔽它。
+- 如果遇到网络请求超时，可以尝试使用加速工具或者更换第三方 API 代理。
+- 本项目是我的个人练习与简历展示作品，欢迎交流指正。
