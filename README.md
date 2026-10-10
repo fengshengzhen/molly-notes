@@ -20,7 +20,8 @@
    `python main.py`
 
 ## 📷 运行截图
-<img width="800" alt="AI魔力笔记运行截图" src="https://github.com/user-attachments/assets/..." />
+<img width="1920" height="1027" alt="AI魔力笔记运行截图" src="https://github.com/user-attachments/assets/f69b6215-30f8-4365-a758-1ad213171ebd" />
+
 
 ## 📝 注意事项
 本项目仅供学习与展示，API Key 请自行在对应平台申请，不要将 `config.json` 上传至公开仓库。
